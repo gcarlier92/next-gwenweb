@@ -1,3 +1,7 @@
+Gwendoline Carlier's Website
+
+Based on the design by [@jmarioste](https://github.com/jmarioste/next-responsive-sidebar-tailwind)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
