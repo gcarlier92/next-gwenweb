@@ -10,7 +10,7 @@ const Navbar = (props: Props) => {
       className={classNames({
         "bg-white text-zinc-500": true, // colors
         "flex items-center": true, // layout
-        "w-full fixed z-10 px-4 shadow-sm h-16": true, //positioning & styling
+        "w-full fixed z-10 px-6 shadow-sm h-16": true, //positioning & styling
       })}
     >
       <div className="font-bold text-lg">GC</div>

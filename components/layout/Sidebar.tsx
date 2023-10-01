@@ -7,7 +7,6 @@ import { useOnClickOutside } from "usehooks-ts";
 export type NavItem = {
   label: string;
   href: string;
-  icon: React.ReactNode;
 };
 // add NavItem prop to component prop
 type Props = {
@@ -17,7 +16,7 @@ type Props = {
 };
 const Sidebar = ({ open, navItems = defaultNavItems, setOpen }: Props) => {
   const ref = useRef<HTMLDivElement>(null);
-  useOnClickOutside(ref, (e) => {
+  useOnClickOutside(ref, () => {
     setOpen(false);
   });
   return (
